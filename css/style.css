@@ -51,11 +51,11 @@ margin-left: 25%;
 }
 
 .icons-social a {
-	color: #FAFAFA;
+  color: #FAFAFA;
 }
 
 .icons-social a svg path{
-	fill: #FAFAFA;
+  fill: #FAFAFA;
 }
 
 .icon {
@@ -66,22 +66,88 @@ margin-left: 25%;
 
 .clock {
   font-family: "Allerta Stencil", Sans-serif;
-	margin: 2rem 0;
+  margin: 2rem 0;
   color: #FAFAFA;
   position:absolute;
-
+  font-weight: 200;
   left: 22%;
-  font-size: 3vw;
+  font-size: 3rem;
 }
 
 .tag {
-    font-size: 2.2vw;
+    font-size: 1.5rem;
 }
 
 .num-tag {
-    font-size: 4.4vw;
+    font-size: 2.5rem;
 }
 
+@media (max-width: 950px) {
+    .clock {
+      top:55vh;
+      width:80%;
+      left:20%;
+      height:auto;
+      font-size:2.5rem;
+  }
+.tag {
+    font-size: 1.2rem;
+}
+.num-tag {
+    font-size: 2rem;
+}
+}
+@media (max-width: 780px) {
+    .clock {
+      top:55vh;
+      width:80%;
+      left:20%;
+      height:auto;
+      font-size:4vw;
+  }
+.tag {
+    font-size: 1rem;
+}
+.num-tag {
+    font-size: 1.8rem;
+}
+}
+@media (max-width: 630px) {
+    .clock {
+      top:55vh;
+      width:80%;
+      left:20%;
+      height:auto;
+      font-size:4vw;
+  }
+.tag {
+    font-size: 0.7rem;
+}
+.num-tag {
+    font-size: 1rem;
+}
+}
+
+
+@media (max-width: 300px) {
+  .fixed-top.left .fixed-top-right {
+    size:70%;
+
+  }
+    .clock {
+      top:55vh;
+      width:80%;
+      left:20%;
+      height:auto;
+      font-size:4vw;
+  }
+  .tag {
+    font-size: 0.5rem;
+}
+.num-tag {
+    font-size: 0.8rem;
+}
+}
 
 
 
