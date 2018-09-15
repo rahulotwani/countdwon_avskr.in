@@ -17,8 +17,8 @@
   position: fixed;
   top: 3px;
   left: 5px;
-  height: auto;
-  width: 34vw;
+  height: 15%;
+  width: 22%;
 
 }
 
@@ -26,8 +26,8 @@
   position: fixed;
   top: 5px;
   right: 5px;
-  height: auto;
-  width: 70vw;
+  height: 15%;
+  width:40%;
 }
 
 .heading {
