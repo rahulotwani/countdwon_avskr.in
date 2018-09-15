@@ -1,10 +1,9 @@
 .bg {
-  background: url('../assests/bg1.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url('../assests/bg1.png') ;
+  background-repeat: no-repeat;
+  background-color: black;
   background-size: cover;
-  width:auto;
+
 
 }
 
