@@ -33,7 +33,7 @@
 
 .heading {
   position: fixed;
-  top: 30%;
+  top: 30vh;
   justify-content: center;
   width: 100%;
   height: auto;
@@ -66,9 +66,9 @@
   font-family: "Allerta Stencil", Sans-serif;
 	margin: 2rem 0;
   color: #FAFAFA;
-  position: fixed;
-  top: 60%;
-  right: 20.4%;
+  position:relative;
+  top: 45vh;
+  left: 22%;
   font-size: 3vw;
 }
 
@@ -85,4 +85,8 @@
     size:70%;
 
   }
-}
+  @media (min-width: 1200px) {
+  	.clock {
+      top:55vh;
+
+    }
