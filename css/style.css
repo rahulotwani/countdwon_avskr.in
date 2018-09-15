@@ -17,10 +17,10 @@
 }
 .fixed-top-left {
   position: fixed;
-  top: 3px;
+  top: 7px;
   left: 5px;
   height:auto;
-  width: 22%;
+  width:18%;
 
 }
 
@@ -30,7 +30,7 @@
   right: 1vw;
   height: auto;
     justify-content: center;
-  width:40%;
+  width:35%;
 }
 
 .heading {
@@ -42,14 +42,12 @@
 }
 
 .icons-social  {
-  font-size:5vh;
-	position: fixed;
-  flex-wrap: wrap;
-   align-items:center;
-  margin-left:25%;
-  bottom:2vh;
-
-
+padding:0;
+position:absolute;
+bottom:5%;
+font-size:3vh;
+justify-content: center;
+margin-left: 25%;
 }
 
 .icons-social a {
@@ -89,15 +87,7 @@
     size:70%;
 
   }
-  .icons-social{
- display:flex;
-}
 
-
-.icons-social ul li{
- align-items:center;
- display:inline-block;
-}
 
   @media (min-width: 1200px) {
   	.clock {
