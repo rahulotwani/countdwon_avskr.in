@@ -84,26 +84,29 @@ margin-left: 25%;
     font-size: 4.4vw;
 }
 
-@media (min-width: 400px) {
-	.fixed-top.left .fixed-top-right {
-    size:70%;
-
-  }
 
 
-  @media (max-width: 730px) {
+  @media (max-width: 700px) {
+    .fixed-top-left {
+      width:35%;
+    }
+    .fixed-top-right {
+      width:65%;
+      top:2.1vh;
+    }
   	.clock {
-      top:55vh;
-      width:80%;
-      left:20%;
+      top:45vh;
+      width:auto;
+      left:7%;
       height:auto;
-      font-size:4vw;
+      font-size:3vw;
 }
 .tag {
-  font-size:2.4vw;
+  font-size:4vw;
 
 }
 .num-tag{
   font-size:5vw;
   font-weight: bold;;
     }
+}
